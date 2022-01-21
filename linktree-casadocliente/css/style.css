@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+body {
+    color: white;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+    margin: 15px 0 30px 0;
+    font-weight: 100;
+}
+
+.profile {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.foto-inicial {
+    width: 200px;
+    border-radius: 110px;
+    border: 3px solid white;
+    box-shadow:0 0 30px white;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li a img {
+    width: 33px;
+    margin: 0 15px;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    background: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 50px;
+    box-shadow: 0 15px 0 cornflowerblue;
+}
